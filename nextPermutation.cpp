@@ -5,7 +5,6 @@ using namespace std;
 
 void nextPermutation(vector<int> &nums)
 {
-
     int n = nums.size(), ind1, ind2;
 
     for (ind1 = n - 2; ind1 >= 0; ind1--)
