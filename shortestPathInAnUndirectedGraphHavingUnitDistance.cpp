@@ -31,6 +31,7 @@ vector<int> shortestPath(vector<vector<int>> &edges, int N, int M, int src)
             {
                 distance[a] = d;
                 q.push({a, d});
+                
             }
         }
     }
