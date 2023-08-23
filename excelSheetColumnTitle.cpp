@@ -13,7 +13,7 @@ string convertToTitle(int columnNumber)
         ans.push_back(char('A' + r));
         n = q;
     }
-    reverse(ans.begin(), ans.end()); /
+    reverse(ans.begin(), ans.end()); 
     return ans;                      
 }
 
