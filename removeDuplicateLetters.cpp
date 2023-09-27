@@ -29,7 +29,7 @@ string removeDuplicateLetters(string s)
         if (V[s[i]] == true)
             continue;
 
-        while (!S.empty() && s[i] < s[S.top()] and M[s[S.top()]] > 0)
+        while (!S.empty() && s[i] < s[S.top()] && M[s[S.top()]] > 0)
         {
             V[s[S.top()]] = false;
             S.pop();
